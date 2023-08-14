@@ -1,0 +1,399 @@
+
+
+.topnav {
+  overflow: hidden;
+  nav-left:20rem;
+  margin-left: 25rem;
+
+ 
+  
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  padding: 14px 1px;
+  margin: 0;
+  color: black;
+  background-color: white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  
+  min-width: 160px;
+  
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  
+  padding: 12px 16px;
+  text-decoration: none;
+ 
+  text-align: left;
+  background: white;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+
+  color: #0F866C;
+}
+
+.dropdown-content a:hover {
+ 
+  color: #0F866C;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+
+
+.pp{
+	width: 100%;
+	height: 714px;
+	right: 0rem;
+	top: rem;
+	position: relative;
+
+	
+	
+}
+
+.vpn{
+	position: absolute;
+	padding: 20px;
+	margin: 0px 15px 0px 0px;
+	top: 2%;
+	left: 1%;
+	width: 18%;a
+	
+}
+
+.center{
+	position: absolute;
+	top: 11rem;
+	left: 9rem;
+	font-size: 6.1rem;
+	font-weight: 600;
+}
+
+.further{
+	position: absolute;
+	top: 18.9rem;
+	left: 30.5%;
+	font-size: 25px;
+	font-weight: bold;
+
+}
+
+.btn{
+	position: absolute;
+	background: #0F866C;
+	color: #FFFFFF;
+	border: none;
+	top: 22rem;
+	left: 40%;
+	font-size: 20px;
+	border-radius: 8rem;
+	height: 3.5rem;
+	width: 15rem;
+	cursor: pointer;
+	font-weight: 650;
+}
+
+.btn:hover{
+	background: #D9F617;
+	color: black;
+}
+
+.day{
+	position: absolute;
+	top: 27rem;
+	left: 42%;
+	font-size: 0.7rem;
+}
+
+.boy{
+	position: absolute;
+	width: 40.5rem;
+	top: 29.7rem;
+	left: 19rem;
+}
+
+
+
+.wide{
+	top: 55rem;
+	position: absolute;
+	left: 10rem;
+	width: 20rem;
+
+
+
+	
+}
+
+
+.access{
+	position: absolute;
+	left: 40rem;
+	top: 53rem;
+	font-size: 3rem;
+	width: 18rem;
+}
+
+.anywhere{
+	position: absolute;
+	left: 40rem;
+	top: 63rem;
+	width: 27rem;
+}
+
+
+.second_btn{
+	position: absolute;
+	left: 40rem;
+	top: 68rem;
+	background: #0F866C;
+	color: #FFFFFF;
+	border: none;
+	font-size: 20px;
+	border-radius: 8rem;
+	height: 3.3rem;
+	width: 15rem;
+	font-weight: 650;
+	cursor: pointer;
+
+}
+
+
+.second_btn:hover{
+	background: #D9F617;
+	color: black;
+
+}
+
+.one_click{
+	position: absolute;
+	font-size: 3rem;
+	left: 9rem;
+	top: 80rem;
+	width: 24rem;
+}
+
+
+.going{
+	position: absolute;
+	left: 9rem;
+	top: 87rem;
+	width: 32rem;
+	font-size: 1.2rem;
+}
+
+
+.light{
+	position: absolute;
+	top: 77rem;
+	left: 50rem;
+	height: 20rem;
+}
+
+
+.use{
+	position: absolute;
+	top: 100rem;
+	left: 45rem;
+	font-size: 2.3rem;
+	width: 20rem;
+	font-weight: bold;
+}
+
+.phone{
+	position: absolute;
+	top: 106rem;
+	left: 45rem;
+	width: 25rem;
+}
+
+.laptop{
+	position: absolute;
+	top: 99rem;
+	height: 25rem;
+	left: 10rem;
+
+}
+
+.apps{
+	position: absolute;
+	top: 113rem;
+	left: 45rem;
+	color: #0F866C;
+}
+
+
+
+.third_btn{
+	position: absolute;
+	left: 45rem;
+	top: 117rem;
+	background: #0F866C;
+	color: #FFFFFF;
+	border: none;
+	font-size: 20px;
+	border-radius: 8rem;
+	height: 3.3rem;
+	width: 15rem;
+	font-weight: 650;
+	cursor: pointer;
+
+}
+
+
+.third_btn:hover{
+	background: #D9F617;
+	color: black;
+}
+
+.lock{
+	position: absolute;
+	top: 130rem;
+	width: 20rem;
+	left: 7rem;
+}
+
+.stronger{
+	position: absolute;
+	top: 140rem;
+	left: 10rem;
+	font-weight: bold;
+	font-size: 2rem;
+	width: 12rem;
+	text-align: center;
+}
+
+.take{
+	position: absolute;
+	top: 145rem;
+	left: 8rem;
+	width: 18rem;
+}
+
+.location{
+	position: absolute;
+	top: 130rem;
+	width: 20rem;
+	left: 30rem;
+}
+
+.work{
+	position: absolute;
+	top: 140rem;
+	left: 32rem;
+	font-weight: bold;
+	font-size: 2rem;
+	width: 17rem;
+	text-align: center;
+}
+
+.experience{
+	position: absolute;
+	top: 145rem;
+	left: 31rem;
+	width: 18rem;
+}
+
+.meter{
+	position: absolute;
+	top: 130rem;
+	width: 20rem;
+	left: 53rem;
+}
+
+.lightning{
+	position: absolute;
+	top: 140rem;
+	left: 55rem;
+	font-weight: bold;
+	font-size: 2rem;
+	width: 17rem;
+	text-align: center;
+}
+
+.our{
+	position: absolute;
+	top: 145rem;
+	left: 55rem;
+	width: 19rem;
+}
+
+.advantage{
+	position: absolute;
+	top: 155rem;
+	left: 35rem;
+	color: #0F866C;
+}
+
+.ultra{
+	position: absolute;
+	top: 160rem;
+	left: 4rem;
+}
+
